@@ -127,7 +127,7 @@ public class Controller_GUI
         String searchClassName;
             
         //---------search user----------
-        Staff   rStaff = cDatabase.findStaffByID(inputID);
+        Staff rStaff = cDatabase.findStaffByID(inputID);
 
         if(isManager)   searchClassName = "Manager";
         else            searchClassName = "Employee";

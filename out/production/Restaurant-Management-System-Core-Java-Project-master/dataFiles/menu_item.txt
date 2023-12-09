@@ -11,3 +11,4 @@
 304,Bottle wine red,30.0,3
 401,Tiramisu,6.0,4
 402,Ice cream,5.0,4
+404,Sarmale,5.0,4

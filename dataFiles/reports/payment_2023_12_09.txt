@@ -1,0 +1,5 @@
+*********** Payment List (2023_12_09) ***********
+Order ID:   1  StaffName:X Y                             Work time:0.00  Pay:500.00
+Order ID:   2  StaffName:Dan Eugen                       Work time:0.00  Pay:0.00 
+-------------------------------------------------------
+Total payment:$500.0(2)

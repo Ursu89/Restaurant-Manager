@@ -245,7 +245,7 @@ public class Controller
     {
         String searchClassName;
         int     inputID = 0;
-        String  iuputPassword = "";
+        String  inputPassword = "";
         String  key = "";
             
         printMessageToView("Enter your ID.");
@@ -261,7 +261,7 @@ public class Controller
             }
         }
         printMessageToView("Enter your password.");
-        iuputPassword = cView.userInput();
+        inputPassword = cView.userInput();
             
         //---------search user----------
         Staff   rStaff = cDatabase.findStaffByID(inputID);
@@ -274,7 +274,7 @@ public class Controller
             //Search only particular target(Manager or Employee)
             if( rStaff.getClass().getName().equalsIgnoreCase(searchClassName))
             {
-                if(rStaff.getPassword().equals(iuputPassword))
+                if(rStaff.getPassword().equals(inputPassword))
                 {
                     printMessageToView("Login successful!!");
                     if(rStaff.getWorkState() == 0)  //Not clocked in yet

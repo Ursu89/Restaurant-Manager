@@ -98,7 +98,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         homeImage.setVerticalAlignment(SwingConstants.CENTER);
         homeImage.setIcon(new ImageIcon("images/home" + i + ".jpg"));
         homePanel.add(homeImage);
-        homePanel.setBackground(Color.WHITE);
+        homePanel.setBackground(Color.orange);
         mainPanel.add("Home", homePanel);
 
         cLoginPanel = new LoginPanel();
@@ -2068,7 +2068,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
             GridBagConstraints gbc = new GridBagConstraints();
 
             displayArea = new JTextArea();
-            displayArea.setFont(new Font(Font.MONOSPACED,Font.PLAIN,16));
+            displayArea.setFont(new Font(Font.MONOSPACED,Font.PLAIN,20));
             displayArea.setEditable(false);
             displayArea.setMargin(new Insets(5, 5, 5, 5));
             scrollPanel = new JScrollPane(displayArea);

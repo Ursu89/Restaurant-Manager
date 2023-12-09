@@ -22,7 +22,8 @@ public class Manager extends Staff
             newRate = MINIMUM_RATE;
         wageRate = newRate;
     }
-    
+
+
 
     public double culculateWages()
     {

@@ -1,7 +1,3 @@
-/**
- * Kazunori Hayashi
-* Version 1.0 29/7/2013
- */
 
 public class MenuItem
 {
@@ -94,5 +90,4 @@ public class MenuItem
     byte getState()
     {
         return this.state;
-    }
-}
+ }}
